@@ -1,7 +1,7 @@
 import cohere
-from cohere.classify import Example
-co = cohere.Client('WgZFoDpnpQkxA80dUmDKcRivf7oYZF2VodsdynBN')
-#old = input("Enter a password: ")
+
+co = cohere.Client('yourAPIKey')
+
 new = input("Enter a password: ")
 
 response = co.classify(
